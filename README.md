@@ -5,7 +5,7 @@
 This application demonstrates seamless integration between mobile devices and Huawei lite
 wearable using Huawei Wear Engine. It allows users to control music playback (play, pause, next,
 previous) directly from their Huawei wearable. The app supports real-time synchronization of music
-information (title, artist, album art) between the mobile app and the lite wearable.
+information (title, artist, album art) between the mobile app and the SportWatch.
 
 # Preview
 <div>
@@ -16,9 +16,9 @@ information (title, artist, album art) between the mobile app and the lite weara
 # Use Cases
 
 - **Music Playback Control**: Users can control music playback (play, pause, next, previous) from both the mobile app and the
-  lite wearable.
+  SportWatch.
 - **Music Information Sync**: Album art, track title, and artist information are synchronized between the mobile app and
-  lite wearable. Progress bar updates in real-time on both devices.
+  SportWatch. Progress bar updates in real-time on both devices.
 
 # Technology
 ## Stack
@@ -119,9 +119,9 @@ information (title, artist, album art) between the mobile app and the lite weara
 2. After downloading the wear engine file from the [document (click to visit download page)](https://developer.huawei.com/consumer/en/doc/connectivity-Library/litewearable-sdk-cn-0000001705004353),
    place it in  ```\entry\src\main\js\MainAbility\wearengine``` directory.
 3. Set signing configs and PEER_PKG_NAME & PEER_FINGERPRINT in utils.
-4. Build and run the app on a **Huawei lite wearable**.
+4. Build and run the app on a **Huawei SportWatch**.
 5. Ensure the **sport watch** and **mobile app** are properly paired.
 
 # LICENSE
-[Mobile - Lite Wearable] Music Controller with Wear Engine is distributed under the terms of the MIT License.
+[Mobile - SportWatch] Music Controller with Wear Engine is distributed under the terms of the MIT License.
 See the [license](/LICENSE) for more information.
